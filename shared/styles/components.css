@@ -1,0 +1,22 @@
+/* Logo
+---------------------------------------------------------------------------- */
+
+.logo {
+  display: block;
+  padding-right: var(--m);
+  padding-bottom: var(--s);
+  color: var(--accent);
+  font-size: var(--l);
+}
+
+
+/* Navigation
+---------------------------------------------------------------------------- */
+
+.main-navigation {
+
+  padding-top: var(--l);
+  padding-left: var(--l);
+}
+
+
