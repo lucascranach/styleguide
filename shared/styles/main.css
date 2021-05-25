@@ -3,6 +3,7 @@
 @import './icons.css';
 @import './fonts.css';
 @import './components.css';
+@import './artefact-card.css';
 
 * {
   box-sizing: content-box;
