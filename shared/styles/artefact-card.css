@@ -1,0 +1,40 @@
+.artefact-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: var(--darkest);
+}
+
+.artefact-card__image--with-box,
+.artefact-card__image-holder{
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  border-top: var(--border-stroke-weight) solid var(--darken);
+}
+
+.artefact-card__image--with-box {
+  background-color: var(--lighten);
+}
+
+.artefact-card__content {
+  flex-grow: 1;
+  padding: var(--m);
+  color: var(--lightest);
+  border-top: var(--border-stroke-weight) solid var(--accent);
+  background-color: var(--darker);
+}
+
+.artefact-card__title {
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-tight);
+  margin-bottom: var(--xs);
+  color: var(--lighest);
+}
+
+.artefact-card__subtitle {
+  font-weight: var(--fw-normal);
+  line-height: var(--lh-tight);
+  margin-bottom: var(--xs);
+  color:var(--lighter);
+}
