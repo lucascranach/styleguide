@@ -1,4 +1,4 @@
-.material-icons {
+.icon {
   font-family: 'Material Icons';
   font-weight: 100;
   font-style: normal;
@@ -26,3 +26,8 @@
   margin-right: var(--xs);
   vertical-align: sub;
 }
+
+.icon.s { font-size: var(--s); }
+.icon.m { font-size: var(--m); }
+.icon.l { font-size: var(--l); }
+.icon.xl { font-size: var(--xl); }
